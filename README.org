@@ -1,0 +1,16 @@
+#+title: PA Usrp UI
+
+
+* Simulasi
+
+Silahkan ada di direktory simulasi perhatikan bahwa file xmlnya perlu untuk
+diupdate.
+
+dan unutk menjalankan simulasinya gunakan perintah berikut
+
+
+#+begin_src
+rm -rf sim_J1_RFIN
+rm -f pa_rfin_results.mat
+octave --quiet pa_openems.m
+#+end_src

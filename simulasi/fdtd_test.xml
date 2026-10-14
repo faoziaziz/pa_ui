@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<openEMS>
+  <FDTD NumberOfTimesteps="1000" endCriteria="1e-05" f_max="1920000000">
+    <Excitation Type="0" f0="1835000000" fc="85000000">
+    </Excitation>
+    <BoundaryCond xmin="PML_8" xmax="PML_8" ymin="PML_8" ymax="PML_8" zmin="PML_8" zmax="PML_8">
+    </BoundaryCond>
+  </FDTD>
+  <ContinuousStructure CoordSystem="0">
+    <Properties></Properties>
+    <RectilinearGrid DeltaUnit="0.001" CoordSystem="0">
+      <XLines>0,10,20</XLines>
+      <YLines>0,10,20</YLines>
+      <ZLines>-2,0,2</ZLines>
+    </RectilinearGrid>
+  </ContinuousStructure>
+</openEMS>

@@ -1,0 +1,89 @@
+{
+  "source": "../pa_usrp_ui.kicad_pcb",
+  "rf_nets": [
+    "Net-(F1-ANT)",
+    "Net-(F1-B3DL)",
+    "Net-(F1-B3UL)",
+    "Net-(U1-RFIN)"
+  ],
+  "segments": [
+    {
+      "start": [
+        146.4,
+        90.5
+      ],
+      "end": [
+        159.0875,
+        90.5
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "Net-(F1-ANT)"
+    },
+    {
+      "start": [
+        104.9125,
+        90.5
+      ],
+      "end": [
+        128.425,
+        90.5
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "Net-(U1-RFIN)"
+    },
+    {
+      "start": [
+        128.425,
+        90.5
+      ],
+      "end": [
+        128.485,
+        90.56
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "Net-(U1-RFIN)"
+    },
+    {
+      "start": [
+        145.0,
+        89.55
+      ],
+      "end": [
+        143.89,
+        88.44
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "Net-(F1-B3DL)"
+    },
+    {
+      "start": [
+        143.89,
+        88.44
+      ],
+      "end": [
+        134.885,
+        88.44
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "Net-(F1-B3DL)"
+    },
+    {
+      "start": [
+        145.0,
+        91.45
+      ],
+      "end": [
+        145.0,
+        93.5
+      ],
+      "width": 0.2,
+      "layer": "F.Cu",
+      "net": "Net-(F1-B3UL)"
+    }
+  ]
+}
