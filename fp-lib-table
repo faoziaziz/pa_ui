@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "fooptrints") (type "KiCad") (uri "${KIPRJMOD}/lib/fooptrints") (options "") (descr ""))
+)
