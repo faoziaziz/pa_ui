@@ -257,7 +257,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -555,7 +555,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}_lna.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -703,7 +703,7 @@
         "uuid": "08292d0c-9f8f-42a1-832b-e8156ae71bbb"
       }
     ],
-    "used_designators": "#PWR1-29,C1-12,F1,J1-5,L1,R1-4,TP1-4,U1-2",
+    "used_designators": "#PWR1-29,C1-15,F1,J1-5,L1,R1-4,TP1-4,U1-2",
     "variants": []
   },
   "sheets": [
